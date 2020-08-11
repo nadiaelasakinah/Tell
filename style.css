@@ -1,0 +1,201 @@
+@font-face{
+    font-family: mbold;
+    src: url('Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face{
+    font-family: msemibold;
+    src: url('Montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face{
+    font-family: mregular;
+    src: url('Montserrat/Montserrat-Regular.ttf');
+}
+
+body{
+    background: url('image/bg-baloon.png');
+    /* Untuk menghilangkan pengulangan gambar background comment kode background-repeat */
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin: auto;
+    max-width: 450px;
+    padding-bottom: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.detail{
+    background: white;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin: auto;
+    max-width: 450px;
+    padding: 20px;
+}
+
+.judul{
+    max-width: 450px;
+    margin-top: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.judul h5, .lateststory h5{
+    font-family: mbold;
+}
+
+.judul p{
+    font-family: msemibold;
+    font-size: 12px;
+}
+
+.kategori{
+    max-width: 420px;
+    margin-top: 60px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    
+}
+
+.kategori h7{
+    font-family: msemibold;
+}
+
+.kategori a{
+    color: black;
+}
+
+div .container{
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.container a{
+    min-width: 60px;
+    height: 60px;
+    margin: 6px;
+    border-radius: 5px;
+    flex: 1;
+    color: black;
+    font-size: 10px;
+    padding-top: 40px;
+    box-shadow: 0px 0px 6px 1px grey;
+}
+
+.container a.love{
+    background-color:  rgb(249, 189, 189);
+}
+
+.container a.love:hover{
+    transform: scale(1.1);
+    background-color:  rgb(249, 180, 189);
+}
+
+.container a.school{
+    background-color: rgb(160, 157, 200);
+}
+
+.container a.school:hover{
+    transform: scale(1.1);
+    background-color:  rgb(160, 148, 200);
+}
+
+.container a.work{
+    background-color:  rgb(247, 228, 106);
+}
+
+.container a.work:hover{
+    transform: scale(1.1);
+    background-color:  rgb(247, 219, 106);
+}
+
+.container a.horror{
+    background-color:  rgb(123, 123, 123);
+}
+
+.container a.horror:hover{
+    transform: scale(1.1);
+    background-color:  rgb(123, 114, 123);
+}
+
+.container a.childhood{
+    background-color:  rgb(255, 154, 154);
+}
+
+.container a.childhood:hover{
+    transform: scale(1.1);
+    background-color:  rgb(255, 145, 154);
+}
+
+.cari{
+    max-width: 450px;
+    padding: 30px 10px;
+}
+
+.cariinput{
+    border-radius: 10px;
+}
+
+.caribtn{
+    border-radius: 10px;
+    border-left: solid 1px gainsboro;
+    border-top: solid 1px gainsboro;
+    border-bottom: solid 1px gainsboro;
+}
+
+.lateststory{
+    max-width: 420px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div .container-dua{
+    /* margin-left: -15px;
+    margin-right: -15px; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+div .row{
+    max-width: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.text-muted{
+    line-height: 40px;
+}
+
+.link{
+    color: black;
+}
+
+.link:hover{
+    transform: scale(1.1);
+    color: rgb(73, 66, 66);
+}
+
+.tanggal h5{
+    font-family: msemibold;
+}
+
+.judul-detail h3{
+    font-family: mbold;
+    padding-top: 60px;
+}
+
+.konten h5{
+    font-family: msemibold;
+    padding-top: 15px;
+}
+
+.konten{
+    padding-bottom: 200px;
+}
+
